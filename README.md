@@ -9,6 +9,9 @@ Created on Unity 2021.3.5f1
 ## Circle Gradient
 ![](https://github.com/LordOfTheFridge/Unity_AudioVisualizer/blob/master/Screenshots/CircleGradient.png)
 
+## FrequencyBands
+![](https://github.com/LordOfTheFridge/Unity_AudioVisualizer/blob/master/Screenshots/FrequencyBands.png)
+
 # Music and Copyright
 
 All music in Demo is by wonderful composer [Karl Casey @ White Bat Audio](https://www.youtube.com/@WhiteBatAudio).

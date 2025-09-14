@@ -509,7 +509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3261424296049345388, guid: 3f4fbc0df0a8d8146849f662eb0fd350, type: 3}
       propertyPath: m_Name
-      value: AudioVisualizerHorizontalGradient
+      value: AudioVisualizer_HorizontalGradient
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f4fbc0df0a8d8146849f662eb0fd350, type: 3}

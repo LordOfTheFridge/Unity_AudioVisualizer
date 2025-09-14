@@ -6,19 +6,19 @@ namespace Utilities.UI.AudioVisualizer
     public class AudioVisualizerHorizontalGradient : MonoBehaviour
     {
         [SerializeField] private AudioSource AudioSource;
-        [Space(15)]
 
+        [Space(15)]
         [SerializeField] private Color[] GradientColors;
-        [Space(15)]
 
+        [Space(15)]
         [SerializeField] private float MinHeight = 15.0f;
         [SerializeField] private float MaxHeight = 425.0f;
         [SerializeField] private float UpdateSentivity = 0.2f;
         [SerializeField] private float SizeMultiplier = 200.0f;
         [SerializeField] [Range(64, 8192)] private int SamplesCount = 64;
         [SerializeField] private FFTWindow SpectrumAnalysisType = FFTWindow.Triangle;
-        [Space(15)]
 
+        [Space(15)]
         [SerializeField] private GameObject SamplePrefab;
 
         private float[] spectrumData;
@@ -27,7 +27,7 @@ namespace Utilities.UI.AudioVisualizer
 
         void Start()
         {
-            if (SamplePrefab == null) {
+            if (SamplePrefab == null || AudioSource == null) {
                 return;
             }
 
