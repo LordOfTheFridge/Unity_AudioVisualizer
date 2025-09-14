@@ -14,7 +14,7 @@ namespace Utilities.UI.AudioVisualizer
         [SerializeField] private float MinHeight = 15.0f;
         [SerializeField] private float MaxHeight = 425.0f;
         [SerializeField] private float UpdateSentivity = 0.2f;
-        [SerializeField] private float SizeMultiplier = 100.0f;
+        [SerializeField] private float SizeMultiplier = 200.0f;
         [SerializeField] [Range(64, 8192)] private int SamplesCount = 64;
         [SerializeField] private FFTWindow SpectrumAnalysisType = FFTWindow.Triangle;
         [Space(15)]
